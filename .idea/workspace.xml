@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41d5a283-7a2f-4a12-ab83-29040dc598ab" name="Changes" comment="Two changes to files">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/utils/UserInput.kt" afterDir="false" />
+    <list default="true" id="41d5a283-7a2f-4a12-ab83-29040dc598ab" name="Changes" comment="Add ten options in main and add userinput functions">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/controllers/ActorController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/controllers/MovieActorController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/controllers/MovieController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/models/Actor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/models/Movie.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/models/MovieActor.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +29,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -45,6 +52,8 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Gradle.Build MovieAssignment.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;prototype&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
@@ -53,6 +62,9 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -82,6 +94,17 @@
       <workItem from="1731663912209" duration="10000" />
       <workItem from="1731663929375" duration="115000" />
       <workItem from="1731664067402" duration="306000" />
+      <workItem from="1731664387290" duration="684000" />
+      <workItem from="1731666919859" duration="7000" />
+      <workItem from="1731675586478" duration="19000" />
+      <workItem from="1731927488861" duration="631000" />
+      <workItem from="1731928186575" duration="459000" />
+      <workItem from="1731928670982" duration="5801000" />
+      <workItem from="1732028587016" duration="25000" />
+      <workItem from="1732180369416" duration="4429000" />
+      <workItem from="1732541946509" duration="5618000" />
+      <workItem from="1732814143706" duration="6000" />
+      <workItem from="1732814153955" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -99,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731606478063</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add ten options in main and add userinput functions">
+      <option name="closed" value="true" />
+      <created>1731666891011</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731666891011</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +162,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="Two changes to files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Two changes to files" />
+    <MESSAGE value="Add ten options in main and add userinput functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add ten options in main and add userinput functions" />
   </component>
 </project>
