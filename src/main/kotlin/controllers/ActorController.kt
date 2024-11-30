@@ -6,10 +6,11 @@ class ActorController {
     private var lastId = 0
     private fun getId() = lastId++
 
-    fun addActor(actor: Actor) {
+    fun addActor(actor: Actor)  {
         actor.actorId = getId()
         actors.add(actor)
     }
 
     fun listActors() = actors
+
 }

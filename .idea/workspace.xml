@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41d5a283-7a2f-4a12-ab83-29040dc598ab" name="Changes" comment="Add ten options in main and add userinput functions">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/controllers/ActorController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/controllers/MovieActorController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/controllers/MovieController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/models/Actor.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/models/Movie.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/models/MovieActor.kt" afterDir="false" />
+    <list default="true" id="41d5a283-7a2f-4a12-ab83-29040dc598ab" name="Changes" comment="Add working options to the code so the system runs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +16,23 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MovieAssignment" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -41,6 +50,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;CallumMcStay&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/CallumMcStay/MovieAssignment.git&quot;,
+    &quot;accountId&quot;: &quot;f1327b69-05a5-43c3-865c-0fea00a15b7d&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -72,8 +93,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.24807.4" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.24807.4" />
       </set>
     </attachedChunks>
   </component>
@@ -105,6 +126,8 @@
       <workItem from="1732541946509" duration="5618000" />
       <workItem from="1732814143706" duration="6000" />
       <workItem from="1732814153955" duration="6000" />
+      <workItem from="1732814351410" duration="1701000" />
+      <workItem from="1732892609052" duration="266000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -130,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731666891011</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add working options to the code so the system runs">
+      <option name="closed" value="true" />
+      <created>1732892532726</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732892532726</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +194,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="Two changes to files" />
     <MESSAGE value="Add ten options in main and add userinput functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add ten options in main and add userinput functions" />
+    <MESSAGE value="Add working options to the code so the system runs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add working options to the code so the system runs" />
   </component>
 </project>

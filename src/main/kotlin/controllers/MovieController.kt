@@ -13,4 +13,12 @@ class MovieController {
     }
 
     fun listMovies() = movies
+
+    fun myMovies(): List<String> {
+        return listOf("Star Wars", "Batman", "Spider-Man", "Pirates of The Carribean")
+    }
+
+    fun listMoviesByGenre() {
+
+    }
 }

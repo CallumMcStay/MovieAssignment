@@ -7,3 +7,8 @@ class Actor (
                             var actorNationality: String,
                             var actorAwards: String
 )
+{
+    override fun toString(): String {
+        return "Actors:'$actorName' ('$actorAge'), is '$actorNationality' and his awards are:'$actorAwards')"
+    }
+}
