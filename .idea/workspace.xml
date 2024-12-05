@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41d5a283-7a2f-4a12-ab83-29040dc598ab" name="Changes" comment="Add working options to the code so the system runs">
+    <list default="true" id="41d5a283-7a2f-4a12-ab83-29040dc598ab" name="Changes" comment="Tidy main function code and add print fun">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/utils/ValidateGenre.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/utils/ValidateInput.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/controllers/ActorController.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/controllers/MovieActorController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/controllers/MovieActorController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/controllers/MovieController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/controllers/MovieController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/models/MovieActor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/models/MovieActor.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +83,7 @@
     &quot;Gradle.Build MovieAssignment.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;prototype&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;V1&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -84,8 +91,8 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -128,6 +135,8 @@
       <workItem from="1732814153955" duration="6000" />
       <workItem from="1732814351410" duration="1701000" />
       <workItem from="1732892609052" duration="266000" />
+      <workItem from="1733130955407" duration="12827000" />
+      <workItem from="1733240835918" duration="4993000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -178,7 +187,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="prototype" />
+                        <option value="V1" />
                       </list>
                     </value>
                   </entry>

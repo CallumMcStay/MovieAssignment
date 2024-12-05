@@ -1,11 +1,11 @@
 import controllers.ActorController
 import controllers.MovieController
 import controllers.MovieActorController
-import utils.readNextInt
 import models.Movie
 import models.Actor
-import utils.readNextLine
-import utils.readNextInt
+import utils.*
+import utils.readValidGenre
+
 
 val actorController = ActorController()
 val movieController = MovieController()
@@ -27,9 +27,8 @@ fun main() {
       5) List the Movies
       6) List the Actors in Movies
       7) My Favourite Movies
-      8) Show movie with specific actor
-      9) Show all actors in a specific movie
-      10) Show movies in certain genre
+      8) List Movies by Genre
+      9) List Movies Not Watched
       0) Exit
     """.trimMargin("|")
         )
@@ -52,7 +51,7 @@ fun main() {
                 listOfActors()
             }
 
-                5 -> {
+            5 -> {
                    listOfMovies()
                 }
 
@@ -63,6 +62,10 @@ fun main() {
             7 ->{
                 myFavMovies()
 
+            }
+
+            8->{
+           listMoviesByGenre()
             }
 
             0 -> {
@@ -92,8 +95,8 @@ fun addMovie() {
     val movieName = readNextLine("Movie Name: ")
     val movieGenre = readNextLine("Movie Genre: ")
     val lengthInMinutes = readNextInt("Length: ")
-    var isWatched: Boolean
-    val movie = Movie(0, movieName, movieGenre, isWatched = false, lengthInMinutes)
+    var isWatched = false
+    val movie = Movie(0, movieName, movieGenre, isWatched, lengthInMinutes)
     movieController.addMovie(movie)
 }
 
@@ -122,3 +125,12 @@ fun actorsInMovies() {
 fun myFavMovies() {
     println("My favourite movies: \n${movieController.myMovies().forEach { println(it) }}")
 }
+
+fun listMoviesByGenre() {
+    //List movies by genre
+    val movieGenre = readValidGenre("Enter a Genre to list the movies in it")
+    println(movieGenre)
+    println(movieController.listMoviesByGenre(movieGenre))
+}
+
+
