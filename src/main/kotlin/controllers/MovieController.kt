@@ -26,11 +26,9 @@ class MovieController {
     }
 
 
-//    fun listMoviesNotWatched (isWatched: Boolean) ={
-//
-//        if (movies.isEmpty())
-//            "No Movies on the system"
-//        else
-//            movies.filter { it.isWatched }
-//}
+    fun listMoviesNotWatched () ={
+        if (movies.isEmpty())            "No Movies on the system"
+        else            movies.filter { ! it.isWatched }.toString()
+    }
+
 }

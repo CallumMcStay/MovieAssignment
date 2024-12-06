@@ -68,6 +68,10 @@ fun main() {
            listMoviesByGenre()
             }
 
+            9->{
+                listMoviesNotWatched()
+            }
+
             0 -> {
                 println("Exiting...")
             }
@@ -134,3 +138,6 @@ fun listMoviesByGenre() {
 }
 
 
+fun listMoviesNotWatched() {
+    println("The movies you whavent watched are: \n${movieController.listMoviesNotWatched()}")
+    }
