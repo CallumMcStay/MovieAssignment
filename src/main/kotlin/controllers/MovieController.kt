@@ -18,7 +18,17 @@ class MovieController {
         return listOf("Star Wars", "Batman", "Spider-Man", "Pirates of The Carribean")
     }
 
-    fun listMoviesByGenre() {
-
+    fun listMoviesByGenre(listGenre: String) = {
+        if (movies.isEmpty())
+            "No Movies on the system"
+        else
+            movies.filter { it.movieGenre == listGenre }.toString()
     }
+
+
+    fun listMoviesNotWatched () ={
+        if (movies.isEmpty())            "No Movies on the system"
+        else            movies.filter { ! it.isWatched }.toString()
+    }
+
 }
